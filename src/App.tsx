@@ -60,7 +60,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen pb-20">
+    <div className="min-h-screen pb-20 text-[#b18484] bg-[#d3d3db]">
       {/* Hero Section */}
       <header className="pt-20 pb-12 px-6 max-w-7xl mx-auto">
         <motion.div
@@ -85,7 +85,7 @@ export default function App() {
       <main className="px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* Input Section */}
         <section className="lg:col-span-5 space-y-8">
-          <div className="glass-card p-8 space-y-6">
+          <div className="glass-card p-8 space-y-6 text-[#b98585] [border-style:groove]!">
             <div className="space-y-2">
               <label className="text-sm font-semibold uppercase tracking-wider text-black/60">
                 Product Description
